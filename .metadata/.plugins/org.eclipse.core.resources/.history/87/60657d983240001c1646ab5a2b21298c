@@ -1,0 +1,24 @@
+package com.example.demo.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.entities.FuncionarioEntity;
+import com.example.demo.repositories.FuncionarioRepository;
+
+@Service
+public class FuncionarioService {
+	
+	@Autowired
+	private FuncionarioRepository funRepo;
+
+	public List<FuncionarioEntity> listaTodos() {
+		
+		return null;
+	}
+
+	
+	
+}
